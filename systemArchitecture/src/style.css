@@ -1,0 +1,19 @@
+.container { max-width: 900px; margin: 22px auto; padding: 0 16px; }
+.header { display:flex; align-items:center; justify-content:space-between; gap:16px; background: #fff; padding: 12px 16px; border-radius: 8px; box-shadow: 0 4px 16px rgba(20,20,50,0.06); }
+.nav { display:flex; gap:12px; align-items:center; }
+.btn { display:inline-block; padding:8px 12px; border-radius:8px; cursor:pointer; background:#384ff6; color:white; text-decoration:none; }
+.form { background:#fff; padding:16px; border-radius:8px; box-shadow: 0 6px 18px rgba(20,20,50,0.06); margin-bottom:16px; }
+.card { background:#fff; padding:14px; border-radius:8px; margin-bottom:14px; box-shadow: 0 6px 18px rgba(20,20,50,0.04); }
+.post-title { font-size:18px; margin: 0 0 8px; }
+.post-meta { color:#6b6f76; font-size:13px; margin-bottom:8px; }
+.tags { display:flex; gap:6px; margin-top:8px; }
+.tag { background:#eef2ff; padding:4px 8px; border-radius:6px; font-size:12px; }
+.row { display:flex; gap:12px; align-items:center; }
+.muted { color:#6b6f76; font-size:13px; }
+.input, textarea { width:100%; padding:10px; border-radius:6px; border:1px solid #e6e9f2; box-sizing:border-box; }
+textarea { min-height:120px; }
+.small { font-size:13px; color:#6b6f76; }
+.vote { display:flex; gap:6px; align-items:center; }
+.avatar { width:34px; height:34px; border-radius:50%; object-fit:cover; }
+.right { margin-left:auto; }
+.center { text-align:center; }
